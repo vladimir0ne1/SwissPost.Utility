@@ -28,6 +28,7 @@ Configuration file path: `SwissPost.Utility/appsettings.json`
 ## SwissPost.StreetDirectory
 
 Contains StreetDirectory database model. All data reads into memory as we don't know if it is always ordered correctly to avoid broken foreign keys.
+Key concept is that entities collections are stored as dictionaries where key is entity primary key.
 
 ## Ascarix.GeoApi
 
