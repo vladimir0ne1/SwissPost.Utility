@@ -4,11 +4,13 @@ This project contains Utility to convert SwissPost Street Directory database fil
 
 # Usage
 
-1. Set `SourceFilePath` in `SwissPost.Utility/appsettings.json`
+1. Clone solution.
+1. Go to `SwissPost.Utility` folder
+1. Set `SourceFilePath` in `appsettings.json`
 1. Update other settings if need (see below description - section `Config options`).
-1. Optional - if using Ascarix.GeoApi - redirect output to file, it saves a lot of time. Example: `.\Ascarix.GeoApi.exe > out_log.txt`
+1. Optional: Run Ascarix.GeoApi and redirect output to file, it saves a lot of time. Example: `.\Ascarix.GeoApi.exe > out_log.txt`
 1. Build solution: `dotnet build`
-1. Run `SwissPost.Utility/bin/Debug/net6.0/SwissPost.Utility.exe`
+1. Run utility: `dotnet run`
 
 # Configuration
 
